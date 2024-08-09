@@ -1,0 +1,6 @@
+[submodule "api"]
+	path = api
+	url = https://github.com/renanholler/machine_learning_api
+[submodule "front"]
+	path = front
+	url = https://github.com/renanholler/machine_learning_front
