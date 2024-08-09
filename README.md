@@ -1,3 +1,8 @@
+<div>
+  <image src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
+  <image src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+</div>
+
 # ML-Clustering-Classification
 A tarefa consiste na aplicação de técnicas de agrupamento e classificação de frutas com base em um conjunto de dados fornecido pela empresa fictícia "Grupo Flora", que é especializada na exportação de frutas.
 
