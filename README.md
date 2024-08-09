@@ -1,6 +1,4 @@
 # ML-Clustering-Classification
-
-Este repositório contém a implementação da tarefa 1.3 do projeto da disciplina 65PIN3 – Projeto Integrador III, oferecida pelo Departamento de Engenharia de Software da Universidade do Estado de Santa Catarina (UDESC). 
 A tarefa consiste na aplicação de técnicas de agrupamento e classificação de frutas com base em um conjunto de dados fornecido pela empresa fictícia "Grupo Flora", que é especializada na exportação de frutas.
 
 ## Descrição do Projeto
