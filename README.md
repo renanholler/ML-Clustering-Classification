@@ -4,24 +4,26 @@
 </div>
 
 # ML-Clustering-Classification
-A tarefa consiste na aplicação de técnicas de agrupamento e classificação de frutas com base em um conjunto de dados fornecido pela empresa fictícia "Grupo Flora", que é especializada na exportação de frutas.
 
-## Descrição do Projeto
+The task consists of applying clustering and classification techniques to fruits based on a dataset provided by the fictional company **Grupo Flora**, which specializes in fruit exports.
 
-O objetivo principal desta tarefa era utilizar técnicas de agrupamento e classificação para analisar um conjunto de dados de frutas, sendo:
-1. **Agrupamento de Frutas**: Utilização de um algoritmo de clustering para agrupar frutas com base em suas características.
-2. **Classificação de Frutas**: Treinamento de um modelo de classificação usando os grupos formados pelo algoritmo de clustering como uma das variáveis.
+## Project Description
 
-## Metodologia
+The main goal of this task was to use clustering and classification techniques to analyze a fruit dataset:
 
-### Agrupamento
+1. **Fruit Clustering**: Using a clustering algorithm to group fruits based on their characteristics.
+2. **Fruit Classification**: Training a classification model using the groups formed by the clustering algorithm as one of the features.
 
-Para o agrupamento, foi utilizado o algoritmo K-Means, que é um método amplamente conhecido e eficiente para particionar dados em k grupos baseados em características comuns. A escolha do número de clusters foi determinada usando o método do cotovelo (Elbow Method).
+## Methodology
 
-### Classificação
+### Clustering
 
-Após o agrupamento, utilizou-se o algoritmo Random Forest para realizar a classificação das frutas. O modelo foi treinado utilizando os grupos formados como uma das variáveis de entrada, além das características originais das frutas.
+For clustering, the **K-Means** algorithm was used, as it is a widely known and efficient method for partitioning data into *k* groups based on shared characteristics. The number of clusters was determined using the **Elbow Method**.
 
-### Avaliação
+### Classification
 
-A avaliação do modelo foi realizada utilizando uma bateria de testes, com métricas como acurácia, precisão, recall e F1-score para medir o desempenho dos modelos de classificação. Para o agrupamento, foram utilizadas métricas como a inércia (no caso do K-Means) e a silhueta para avaliar a qualidade dos clusters formados.
+After clustering, the **Random Forest** algorithm was used to classify the fruits. The model was trained using the generated cluster labels as one of the input features, in addition to the original fruit features.
+
+### Evaluation
+
+Model evaluation was performed using metrics such as **accuracy, precision, recall, and F1-score** to measure classification performance. For clustering, metrics such as **inertia** (for K-Means) and the **silhouette score** were used to assess the quality of the clusters.
